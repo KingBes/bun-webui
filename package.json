@@ -1,0 +1,22 @@
+{
+  "name": "webui",
+  "module": "src/index.js",
+  "type": "module",
+  "main": "src/index.js",
+  "license": "MIT",
+  "files": [
+    "src/",
+    "build/"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "jsdoc": "^4.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bun": "^1.1.29",
+    "ffi": "^2.3.0"
+  }
+}
